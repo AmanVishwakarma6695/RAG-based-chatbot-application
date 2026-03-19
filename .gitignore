@@ -1,0 +1,26 @@
+# 🔐 Environment variables (NEVER PUSH)
+.env
+
+# 🧠 Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# 🧪 Virtual environment
+venv/
+.env/
+
+# 🗄️ Vector DB / Chroma
+db/
+chroma_db/
+*.sqlite3
+
+# 📂 Data files (optional - large files)
+data/
+
+# 🧰 VS Code settings
+.vscode/
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db
